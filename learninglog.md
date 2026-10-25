@@ -6,3 +6,7 @@ Tried creating the Github repo for the project purely from the terminal. Initial
 - "git push" or "git --push" to actually push the changes into the Github repo 
 
 I tried the 4 problems mentioned the project roadmap but I didnt know where to begin. This included conceptualizing the answer along with just knowing what to actually write. 
+
+10/25/26
+Looked up job listings to highlight skills. Then developed the Cmake file to create a build file to compile the C code in the project. Now looking to review the C Programming a Modern Approach book to cement C syntax.
+
