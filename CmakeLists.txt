@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.10)
+project(EmbeddedRingBuffer C)
+
+# Tell CMake we want to use the C99 standard
+set(CMAKE_C_STANDARD 99)
+
+# Tell CMake where to find our header files
+include_directories(include)
+
+# Create a library from our source code
+add_library(ring_buffer src/ring_buffer.c)
+
+# Create an executable for our test and link it to the library
+add_executable(test_ring_buffer tests/test_ring_buffer.c)
+target_link_libraries(test_ring_buffer ring_buffer)
